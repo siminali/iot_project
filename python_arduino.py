@@ -2,7 +2,7 @@ import pandas as pd
 import serial
 import time
 
-# Load the CSV File
+
 data = pd.read_csv('cosmos_db_export.csv')
 
 # Define thresholds
@@ -23,8 +23,8 @@ for index, row in data.iterrows():
     else:
         command = "LOW"
 
-    arduino.write(command.encode())  # Send command to Arduino
-    time.sleep(1)  # Delay to allow Arduino to process
+    arduino.write(command.encode())  
+    time.sleep(1) 
 
-#  Close Serial Communication
+
 arduino.close()
