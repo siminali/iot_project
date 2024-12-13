@@ -2,8 +2,8 @@ from azure.cosmos import CosmosClient
 import pandas as pd
 
 # Replace with your Cosmos DB credentials
-url = "https://siminali.documents.azure.com:443/"
-key = "LA4AlrWbFszgX5NB0sk65lmAtjv24MHAkHhCAYMvw0CVHfApnUHG3lieW2qdaJaGjVmp6qccmutmACDb31JG8Q=="
+url = "https://simin.documents.azureXXXXXXX"
+key = "LA4AlrWbFszgX5NB0sk65lmAtjv24MHAkHhCAYMvw0CVHfApnUHG3lieW2qdaJaGjVmp6qccXXXXXX"
 database_name = "smart_city"
 container_name = "traffic_air_quality"
 
