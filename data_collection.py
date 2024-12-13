@@ -6,13 +6,13 @@ import schedule
 import time
 
 # Configuration
-COSMOS_ENDPOINT = "https://siminali.documents.azure.com:44"  # Replace with Azure Cosmos DB URI
-COSMOS_KEY = "LA4AlrWbFszgX5NB0sk65lmAtjv24MHAkHhCAYMvw0CVHfApnUHG3lieW2qdaJaGjVmp6qccmutmACDb31JG8Q"           # Replace with Azure Cosmos DB Primary Key
+COSMOS_ENDPOINT = "https://simin.documents.azure.com:44XXXXXXXXXX"  # Replace with Azure Cosmos DB URI
+COSMOS_KEY = "LA4AlrWbFszgX5NB0sk65lmAtjv24MHAkHhCAYMvw0CVHfApnUHG3lieW2qdaJaGjVmp6qccmutmACDb31JG8QXXXXXXX"           # Replace with Azure Cosmos DB Primary Key
 DATABASE_NAME = "smart_city"
 CONTAINER_NAME = "traffic_air_quality"
 
-GOOGLE_MAPS_API_KEY = "AIzaSyBQasFff0qSckTI-aTuIvv5VtM6bl0hH"  # Replace with your Google Maps API Key
-OPENWEATHER_API_KEY = "85b5b63a80899b62af2fd6f1e20537"  # Replace with your OpenWeatherMap API Key
+GOOGLE_MAPS_API_KEY = "AIzaSyBQasFff0qSckTI-aTuIvv5VtM6bl0hHXXXXX"  
+OPENWEATHER_API_KEY = "85b5b63a80899b62af2fd6f1e20537XXXXX"  
 
 # Initialize Cosmos DB
 client = CosmosClient(COSMOS_ENDPOINT, COSMOS_KEY)
